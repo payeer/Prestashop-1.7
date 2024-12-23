@@ -13,6 +13,7 @@ class Payeer extends PaymentModule
         $this->name = 'payeer';
         $this->author = 'Payeer';
         $this->version = '1.0.2';
+        $this->tab = 'payments_gateways';
         $this->need_instance = 1;
 		$this->bootstrap = true;
 
